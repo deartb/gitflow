@@ -1,3 +1,8 @@
+#include<iostream>
+#include<stdlib.h>
+#include<vector>
+using namespace std;
+
 //快速排序
 void quick_sort(int *num, int left, int right)
 {
