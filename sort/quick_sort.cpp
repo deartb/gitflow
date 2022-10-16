@@ -1,11 +1,8 @@
 //快速排序
 void quick_sort(int *num, int left, int right)
 {
-    // int size = sizeof(num)/sizeof(*num);
     if(left > right)
         return ;
-    // if(left < 0 || right > size-1)
-    //     return ;
     int i = left;
     int j = right;
     int pivot = num[i];
