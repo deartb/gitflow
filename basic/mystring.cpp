@@ -2,7 +2,6 @@
 #include<assert.h>
 using namespace std;
 
-// 实现自定义c++中的strcpy strlen strcat strcmp函数
 // 实现c++中的strcpy函数
 char *mystrcpy(char * dest, const char * src)
 {
